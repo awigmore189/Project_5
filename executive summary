@@ -1,0 +1,13 @@
+Executive Summary of Titanic Analysis:
+
+To predict the binary classification value of survival for the given Titanic Dataset I took
+into account the Age of passengers, the paid Fare value, sex, the number of children or parents,
+and the Class of the ship the passenger was on.  My model with relatively successful at predicting
+these values in a Logistic regression with train/test/split as well as Cross-Validatation.  The Logistic
+regression performed slightly better than a K-Nearest Neighbors Classification, which I believe was due to
+the numerical values of age & Fare being a better predictor for survival than others (especially as the
+passenger class is largely a proxy value for Fare).
+
+Overall, the model could certainly be improved through using more of the available data points, as well as
+segmenting passengers from crew members of the ship.  I also dropped the cabin value from my analysis, but
+I believe that using a more advanced modeling technique would allow me to successfully use this information.  
